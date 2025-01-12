@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "name": "Red",
+    "category": "Primary Color",
+    "priceCents": 0,
+    "imageColor": "F00",
+    "publisher": "Epic Games",
+    "maxBuyAmount": 5
+  },
+  {
+    "id": 2,
+    "name": "Yellow",
+    "category": "Primary Color",
+    "priceCents": 200,
+    "imageColor": "FF0",
+    "publisher": "Riot Games",
+    "maxBuyAmount": 10
+  },
+  {
+    "id": 3,
+    "name": "Blue",
+    "category": "Primary Color",
+    "priceCents": 300,
+    "imageColor": "00F"
+  },
+  {
+    "id": 4,
+    "name": "Orange",
+    "category": "Secondary Color",
+    "priceCents": 500,
+    "imageColor": "F60"
+  },
+  {
+    "id": 5,
+    "name": "Green",
+    "category": "Secondary Color",
+    "priceCents": 500,
+    "imageColor": "0F0"
+  },
+  {
+    "id": 6,
+    "name": "Purple",
+    "category": "Secondary Color",
+    "priceCents": 600,
+    "imageColor": "60F"
+  },
+  {
+    "id:": 7,
+    "name": "Magenta",
+    "category": "Exotic Color",
+    "priceCents": 1100,
+    "imageColor": "f745f1"
+  },
+  {
+    "id": 8,
+    "name": "Emerald",
+    "category": "Exotic Color",
+    "priceCents": 600,
+    "imageColor": "1f851f"
+  },
+  {
+    "id": 9,
+    "name": "Ocean",
+    "category": "Exotic Color",
+    "priceCents": 800,
+    "imageColor": "1862a8"
+  },
+  {
+    "id": 10,
+    "name": "Lime Green",
+    "category": "Exotic Color",
+    "priceCents": 1200,
+    "imageColor": "2bed41"
+  },
+  {
+    "id": 11,
+    "name": "Mandarin",
+    "category": "Exotic Color",
+    "priceCents": 1000,
+    "imageColor": "eb5e34"
+  },
+  {
+    "id": 12,
+    "name": "Cyan",
+    "category": "Exotic Color",
+    "priceCents": 900,
+    "imageColor": "36ebc7"
+  },
+  {
+    "id": 13,
+    "name": "Sky Blue",
+    "category": "Casual Color",
+    "priceCents": 1300,
+    "imageColor": "a3c2ff"
+  },
+  {
+    "id": 14,
+    "name": "Purple Night",
+    "category": "Casual Color",
+    "priceCents": 1500,
+    "imageColor": "af6cd9"
+  },
+  {
+    "id": 15,
+    "name": "Morning Dew",
+    "category": "Casual Color",
+    "priceCents": 1400,
+    "imageColor": "68d189"
+  },
+  {
+    "id": 16,
+    "name": "Teal",
+    "category": "Casual Color",
+    "priceCents": 1400,
+    "imageColor": "39bfa9"
+  },
+  {
+    "id": 17,
+    "name": "Paradise Sand",
+    "category": "Casual Color",
+    "priceCents": 700,
+    "imageColor": "cdd66b"
+  },
+  {
+    "id": 18,
+    "name": "Hot Love",
+    "category": "Casual Color",
+    "priceCents": 1400,
+    "imageColor": "cc2b6c"
+  },
+  {
+    "id": 19,
+    "name": "Cheese",
+    "category": "Casual Color",
+    "priceCents": 900,
+    "imageColor": "e8cc3f"
+  },
+  {
+    "id": 20,
+    "name": "Light Gray",
+    "category": "Grayscale",
+    "priceCents": 1100,
+    "imageColor": "AAA"
+  },
+  {
+    "id": 21,
+    "name": "Dark Gray",
+    "category": "Grayscale",
+    "priceCents": 1100,
+    "imageColor": "333"
+  },
+  {
+    "id": 22,
+    "name": "Dark White",
+    "category": "Grayscale",
+    "priceCents": 0,
+    "imageColor": "e2e5eb",
+    "maxBuyAmount": 3
+  },
+  {
+    "id": 23,
+    "name": "Black",
+    "category": "Grayscale",
+    "priceCents": 900,
+    "imageColor": "000"
+  },
+  {
+    "id": 24,
+    "name": "Neo Purple",
+    "category": "Ultimate",
+    "priceCents": 100000000,
+    "imageColor": "c8a6f5"
+  }
+]

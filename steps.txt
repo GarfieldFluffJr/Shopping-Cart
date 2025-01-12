@@ -1,0 +1,47 @@
+Import Parcel
+
+Create Store
+    Create a store.js file and export the main function of it to script.js
+    Make store template
+        Create data attributes and queryselectors
+        setup store functions
+    Render Items from json
+        render store function
+            Append child all items rendered from json file
+
+Create Button/Shopping Cart
+    Show or hide cart when clicked
+    Add items to cart
+        Handle click event for adding
+            When appending items to the shopping cart array, don't forget to append the quantity
+        Render shopping cart
+            Create a new html template for the cart
+            To clear the shopping cart for each instance, do cartItemContainer.innerHTML = ""
+        Handle multiple of same item in cart (Also, remove the x1 if the quanity is 1)
+            {if entry.quantity > 1}...
+            To handle multiple items, should we check what we're appending to the array first?
+            Fix the number in the cart icon
+        Calculate an accurate total
+            Get the total element and try using .reduce()
+    Show or hide cart when there are items or no items
+        Get the entire cart element and play around with the classLists. Add some helper functions
+        Put another function instead of renderCart so that it will control whether the cart will be rendered or not
+    Remove items from cart
+        Create a new function similar to the addToCart function
+        Whenever we click on a button that is the remove button, we want this function to run. EVERY TIME
+        Don't forget to parseInt the id 
+        How would you remove something from the cart? Not the quantity, but the entire item? Maybe removing it from the shopping cart list...
+    Persist across multiple pages
+        We need to access storage so that when they go to a new page, we can access the data
+        Session Storage or local storage?
+        Save the Cart
+            Make a function that saves it sessionStorage!
+            When should we call this function? Maybe whenever we do something with the cart.
+        Load the Cart
+            This is when we refresh etc. and we want our previous cart to load.
+            We know that the shoppingCart is an empty array, shouldn't it be set to the value of the old cart? So when we load a new page, the shopping cart isn't empty, but an array with sessionStorage value. Let's set the value of this cart before we first render the cart.
+            Don't forget to paste the same templates and cart section into the different html files so the cart will appear!
+
+(How the different files work is that script.js will run all 3 pages. Then, there are multiple js files which have different functions such as shopping cart and store. These files export only 1 function which is the setup function. These functions have different functions inside them which are defined and ran inside the file, but the main setup function is ran in script.js)
+
+(How the persisting across different pages works is that all 3 html files run the same script.js file. This script contains the modules for all the other js files. What a template tag in html is is a section where the elements of html won't show up on the page, but it is there. It is practically an element but it isn't actually a part of the page, unless it is activated through javascript. So, you can put tags in there and it won't show up until js makes it appear. That is why cloneNode works in the js files. This clones the template and puts the necessary data and then renders this new cloned template to the website. So, if we have the same template on each of the html files, and run the same script.js, the same shopping cart will appear on each page. And since the data is saved on storage, the cart can access this through loadCart())

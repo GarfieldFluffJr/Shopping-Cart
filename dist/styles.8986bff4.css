@@ -1,0 +1,27 @@
+footer {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: gainsboro;
+  font-size: 10px;
+  text-align: center;
+}
+.footer-link {
+  color: mediumblue;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  background-color: plum;
+}
+
+.checkout-button {
+  width: 50%;
+  margin-right: 0.1em;
+  margin-left: auto;
+  margin-bottom: 0.1em;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
